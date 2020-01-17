@@ -1,0 +1,67 @@
+html { position: relative; min-height: 100%;}
+body {
+padding-top: 70px;
+padding-bottom: 30px;
+background-color: #eee;
+}
+
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+} 
+.footer { 
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	/*Set the fixed height of the footer here*/
+	line-height: 50px;
+	/*Vertically center the text there*/
+	background-color: #f1f1f1;
+}
+.center {
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+/*-webkit-box-lines: multiple;
+-moz-box-lines: multiple;
+-ms-flex-wrap: wrap;
+-webkit-flex-wrap: wrap;
+flex-wrap: wrap;*/
+-webkit-box-align: center;
+-moz-box-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+-webkit-box-pack: center;
+-moz-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-moz-box-orient: vertical;
+-moz-box-direction: normal;
+-ms-flex-direction: column;
+-webkit-flex-direction: column;
+flex-direction: column;
+}
+/*remove adds*/
+img[alt*="000webhost"],
+img[alt*="000webhost"][style],
+img[src*="000webhost"],
+img[src*="000webhost"][style],
+body > div:nth-last-of-type(1)[style]{
+	opacity: 0 !important;
+	pointer-events:none !important;
+	width: 0px !important;
+	height: 0px !important;
+	visibility:hidden !important;
+	display:none !important;
+}
