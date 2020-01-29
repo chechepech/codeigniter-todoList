@@ -1,4 +1,4 @@
-# codeigniter-todoList
+# Codeigniter - TodoList
 
 ## PHP Framework Codeigniter 3.1.11
 
